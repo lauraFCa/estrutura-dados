@@ -61,6 +61,10 @@ O objetivo é coletar pistas e, no nível Mestre, acusar corretamente o suspeito
 
 ## Compilação e Execução
 
+Sugestão: [Online C Compiler](https://www.onlinegdb.com/online_c_compiler)
+
+### Localmente
+
 Compile o arquivo desejado com um compilador C, por exemplo:
 
 ```sh
