@@ -5,7 +5,7 @@ São três níveis de complexidade, cada um implementado em um arquivo C diferen
 
 ## Níveis
 
-### 1. Novato ([1_TetrisStack_Novato.c](Tema_3_TetrisStack/1_TetrisStack_Novato.c))
+### 1. Novato ([1_TetrisStack_Novato.c](1_TetrisStack_Novato.c))
 
 - Utiliza apenas uma **fila** para gerenciar as peças.
 - Permite inserir (enqueue) e remover (dequeue) peças da fila.
@@ -18,7 +18,7 @@ São três níveis de complexidade, cada um implementado em um arquivo C diferen
 
 ---
 
-### 2. Aventureiro ([2_TetrisStack_Aventureiro.c](Tema_3_TetrisStack/2_TetrisStack_Aventureiro.c))
+### 2. Aventureiro ([2_TetrisStack_Aventureiro.c](2_TetrisStack_Aventureiro.c))
 
 - Adiciona uma **pilha de reserva** além da fila.
 - Permite reservar peças (mover da fila para a pilha) e usar peças reservadas (remover da pilha).
@@ -32,7 +32,7 @@ São três níveis de complexidade, cada um implementado em um arquivo C diferen
 
 ---
 
-### 3. Mestre ([3_TetrisStack_Mestre.c](Tema_3_TetrisStack/3_TetrisStack_Mestre.c))
+### 3. Mestre ([3_TetrisStack_Mestre.c](3_TetrisStack_Mestre.c))
 
 - Inclui todas as funcionalidades anteriores.
 - Permite **trocar** a peça da frente da fila com o topo da pilha.
